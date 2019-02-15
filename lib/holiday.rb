@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
 #holiday = {:christmas=>["Lights","Wreath"],:new_years=>["Party Hats"]}
 #("  Christmas: Lights, Wreath")
 holiday_hash.each do |season,holiday|
-  key
+  season
 binding.pry
 end
 end
