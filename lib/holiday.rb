@@ -18,7 +18,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
-  
+
   #### returns the string 'BBQ' without hardcoding it
   holiday_hash[:summer][:fourth_of_july][1]
 end
@@ -82,7 +82,7 @@ holiday_hash.each do |season,holidays|
   holidays.each do |holiday,value|
     season.capitalize
     names = holiday.to_s.split("_")
-    names.each do |name| 
+    names.each do |name|
 binding.pry
     name.capitalize.join
 puts "#{names}: #{value}"
@@ -98,6 +98,7 @@ end
     puts "#{season.capitalize}:"
     holidays.each do |holiday, supplies|
       puts"  #{holiday.to_s.split('_').map {|w| w.capitalize }.join(' ') }: #{supplies.join(", ")}"
+      binding.pry
     end
   end
 end
