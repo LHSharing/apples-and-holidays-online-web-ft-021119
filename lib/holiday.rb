@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-
+binding.pry
 ###should output the formatted list of holidays and their supplies
 #key = :christmas
 #value = ["Lights", "Wreath"]
