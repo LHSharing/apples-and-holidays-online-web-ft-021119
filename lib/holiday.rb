@@ -74,9 +74,9 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 ###should output the formatted list of holidays and their supplies
 #key = :christmas
-#value = ["Lights", "Wreath"]
+#holiday = {:christmas=>["Lights","Wreath"],:new_years=>["Party Hats"]}
 #("  Christmas: Lights, Wreath")
-holiday_hash.each do |key,value| key
+holiday_hash.each do |season,holiday| key
 
 
 binding.pry
