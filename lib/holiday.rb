@@ -76,6 +76,8 @@ def all_supplies_in_holidays(holiday_hash)
 #key = :christmas
 #value = ["Lights", "Wreath"]
 #("  Christmas: Lights, Wreath")
+holiday_hash.each {|key, value| key.capitalize!}
+
 binding.pry
 
 
